@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hand_stu
+    username: root
+    password: cyf13209202523
+  jpa:
+    show-sql: true

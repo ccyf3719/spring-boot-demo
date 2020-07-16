@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d4b8984-f4a3-4fcc-806d-3248d5fbb070" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hand_spring_boot_value/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hand_spring_boot_value/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-schTask/spring-boot-schTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/hand_spring boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/hand_spring boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/java/com/hand/stu/value/SpringBootStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/java/com/hand/stu/value/SpringBootStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/java/com/hand/stu/value/properties/ValuesProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/java/com/hand/stu/value/properties/ValuesProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/resources/demo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/src/main/resources/demo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/com/hand/stu/value/SpringBootStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/com/hand/stu/value/SpringBootStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/com/hand/stu/value/properties/PropertySourceValueOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/com/hand/stu/value/properties/PropertySourceValueOf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/demo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot_value/target/classes/demo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,18 +159,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594878527518</updated>
-      <workItem from="1594878528921" duration="1554000" />
+      <workItem from="1594878528921" duration="1806000" />
     </task>
+    <task id="LOCAL-00001" summary="MybatiesCodeHeler试用">
+      <created>1594880273474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594880273474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MybatiesCodeHeler试用" />
+    <option name="LAST_COMMIT_MESSAGE" value="MybatiesCodeHeler试用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594878559141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594878559141" />
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1594880284941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594880284941" />
     <state x="462" y="108" key="FileChooserDialogImpl" timestamp="1594878746834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,5 +223,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="351" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594880095039" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1594880322482">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594880322482" />
   </component>
 </project>

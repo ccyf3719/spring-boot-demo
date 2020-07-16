@@ -1,0 +1,27 @@
+demo:
+  value: test
+
+#BeanPorperty数据
+beandemo:
+  demo1: demo1
+  demo2: 2
+  demo3: true
+
+spring:
+  profiles:
+    active: test
+
+person:
+  name: 'cyf'
+  age: 100
+  birthday: 2020/07/15 01:24:00
+  boss: false
+
+  map: {'1':'01','2':'02'}
+  list:
+    -lisi
+    -zhangsan
+  arr: 1,2,3,4,5,5,syx
+  stu:
+    name: 'admin'
+    age: 34
