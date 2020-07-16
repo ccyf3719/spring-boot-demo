@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ValuesProperty {
 
-    //获取从 application.properties 中指定量的值
+    //获取从 application.yml 中指定量的值
     @Value("${demo.value}")
     private String value;
 

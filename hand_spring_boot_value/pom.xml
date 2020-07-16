@@ -19,6 +19,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+        <!--Spring Boot的web应用使用的依赖，其中封装了tomcat，servlet等-->
+        <!--<dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+       </dependency>-->
     </dependencies>
 
     <build>
