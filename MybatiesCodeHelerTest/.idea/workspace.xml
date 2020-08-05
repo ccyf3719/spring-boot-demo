@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d4b8984-f4a3-4fcc-806d-3248d5fbb070" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +81,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -88,7 +90,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="JUnit.Test.test">
@@ -137,12 +139,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:hand_stu" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -159,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594878527518</updated>
-      <workItem from="1594878528921" duration="1806000" />
+      <workItem from="1594878528921" duration="2196000" />
+      <workItem from="1594881638770" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="MybatiesCodeHeler试用">
       <created>1594880273474</created>
@@ -191,22 +189,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594878746834" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1594880112943">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom" timestamp="1594880732926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594880112943" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1594880112943">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594880732926" />
+    <state width="1323" height="153" key="GridCell.Tab.0.center" timestamp="1594880732925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594880112943" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1594880112942">
+    <state width="1323" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594880732925" />
+    <state width="1323" height="153" key="GridCell.Tab.0.left" timestamp="1594880732925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594880112942" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1594880112943">
+    <state width="1323" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594880732925" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right" timestamp="1594880732925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594880112943" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594880732925" />
     <state width="1323" height="351" key="GridCell.Tab.1.bottom" timestamp="1594880095039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

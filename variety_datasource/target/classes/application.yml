@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    docker:
+      url: jdbc:mysql://localhost:3306/docker_test
+      username: root
+      password: cyf13209202523
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+    hand:
+      url: jdbc:mysql://localhost:3306/hand_stu
+      username: root
+      password: cyf13209202523
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: mapper/*.xml

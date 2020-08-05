@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.SpringBootTestMapper">
+  <resultMap id="BaseResultMap" type="com.entity.SpringBootTest">
+    <!--@mbg.generated-->
+    <!--@Table spring_boot_test-->
+    <id column="spring_boot_id" jdbcType="BOOLEAN" property="springBootId" />
+    <result column="spring_boot_user" jdbcType="CHAR" property="springBootUser" />
+    <result column="spring_boot_like" jdbcType="CHAR" property="springBootLike" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    spring_boot_id, spring_boot_user, spring_boot_like
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Boolean" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from spring_boot_test
+    where spring_boot_id = #{springBootId,jdbcType=BOOLEAN}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Boolean">
+    <!--@mbg.generated-->
+    delete from spring_boot_test
+    where spring_boot_id = #{springBootId,jdbcType=BOOLEAN}
+  </delete>
+  <insert id="insert" keyColumn="spring_boot_id" keyProperty="springBootId" parameterType="com.entity.SpringBootTest" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into spring_boot_test (spring_boot_user, spring_boot_like)
+    values (#{springBootUser,jdbcType=CHAR}, #{springBootLike,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" keyColumn="spring_boot_id" keyProperty="springBootId" parameterType="com.entity.SpringBootTest" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into spring_boot_test
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="springBootUser != null">
+        spring_boot_user,
+      </if>
+      <if test="springBootLike != null">
+        spring_boot_like,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="springBootUser != null">
+        #{springBootUser,jdbcType=CHAR},
+      </if>
+      <if test="springBootLike != null">
+        #{springBootLike,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.entity.SpringBootTest">
+    <!--@mbg.generated-->
+    update spring_boot_test
+    <set>
+      <if test="springBootUser != null">
+        spring_boot_user = #{springBootUser,jdbcType=CHAR},
+      </if>
+      <if test="springBootLike != null">
+        spring_boot_like = #{springBootLike,jdbcType=CHAR},
+      </if>
+    </set>
+    where spring_boot_id = #{springBootId,jdbcType=BOOLEAN}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.entity.SpringBootTest">
+    <!--@mbg.generated-->
+    update spring_boot_test
+    set spring_boot_user = #{springBootUser,jdbcType=CHAR},
+      spring_boot_like = #{springBootLike,jdbcType=CHAR}
+    where spring_boot_id = #{springBootId,jdbcType=BOOLEAN}
+  </update>
+</mapper>

@@ -1,0 +1,17 @@
+server:
+  port: 8177
+
+eureka:
+  instance:
+    hostname: eureka8177.com
+
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka8176.com:8176/eureka/
+    fetch-registry: false
+#  server:
+    #禁用自我保护
+#    enable-self-preservation: false
+    #时间间隔  ms
+#    eviction-interval-timer-in-ms: 10000

@@ -1,0 +1,4 @@
+server:
+  port: 7001
+swagger:
+  active: true

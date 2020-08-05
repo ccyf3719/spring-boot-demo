@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8956de-4fc6-47d5-b6fc-94086a05916d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-boot-schTask/spring-boot-schTask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/hand_spring boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/hand_spring boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/java/com/hand/spring/demo/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hand_spring_boot/target/classes/com/hand/spring/demo/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatiesCodeHelerTest/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatiesCodeHelerTest/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatiesCodeHelerTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatiesCodeHelerTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hand/stu/value/SpringBootStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hand/stu/value/SpringBootStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hand/stu/value/properties/ValuesProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hand/stu/value/properties/ValuesProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/demo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/demo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hand/stu/value/SpringBootStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hand/stu/value/SpringBootStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hand/stu/value/properties/PropertySourceValueOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hand/stu/value/properties/PropertySourceValueOf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hand_spring_boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hand-spring-boot-jpa" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -145,6 +123,7 @@
       <workItem from="1594817298340" duration="1504000" />
       <workItem from="1594861802943" duration="1940000" />
       <workItem from="1594874763010" duration="30000" />
+      <workItem from="1594896447129" duration="129000" />
     </task>
     <servers />
   </component>
@@ -160,10 +139,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594862961315" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1594874791816">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1594896574057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594874791816" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594896574057" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1594781642779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

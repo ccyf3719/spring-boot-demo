@@ -1,0 +1,23 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: consumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8176.com:8176/eureka/,http://eureka8177.com:8177/eureka/   #注册中心的地址
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+ribbon:
+  #建立连接所用的时间，适用于网络状态正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  #建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+logging:
+  level:
+    #Feign日志以什么级别监控哪个接口
+    com.hand.eureka.service.ConsumerService: debug

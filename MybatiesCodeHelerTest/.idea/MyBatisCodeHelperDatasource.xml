@@ -28,6 +28,18 @@
         </option>
         <option name="tableGenerateConfigs">
           <map>
+            <entry key="hand_stu:spring_boot_test">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="spring_boot_id" />
+                  <option name="javaModelName" value="SpringBootTest" />
+                  <option name="moduleName" value="MybatiesCodeHelerTest" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
             <entry key="hand_stu:stu">
               <value>
                 <TableGenerateConfig>

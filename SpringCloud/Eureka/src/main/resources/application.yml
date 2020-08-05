@@ -1,0 +1,19 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8176    #当前eureka服务端口
+eureka:
+  instance:
+    hostname: eureka8176.com  #eureka 服务端的实例名称
+  client:
+    register-with-eureka: false   #是否向服务中心注册自己
+    fetch-registry: false         #是否获取其他Eureka Server服务的数据
+    service-url:
+      defaultZone: http://eureka8177.com:8177/eureka/   #注册中心的访问地址
+
+#  server:
+    #禁用自我保护
+#    enable-self-preservation: false
+    #时间间隔  ms
+#    eviction-interval-timer-in-ms: 10000

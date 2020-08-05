@@ -1,0 +1,15 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: consumer
+  profiles:
+    active: dev
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8176.com:8176/eureka/,http://eureka8177.com:8177/eureka/   #注册中心的地址
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
