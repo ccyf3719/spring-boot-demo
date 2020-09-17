@@ -34,6 +34,7 @@ eureka:
       lease-renewal-interval-in-seconds: 3
       #Eureka服务端在收到最后一次心跳等待时间的上限，单位为秒（默认90秒），超时删除服务
       lease-expiration-duration-in-seconds: 5
+      ip-address: 47.101.185.244
 mybatis:
   mapper-locations: mapper/*.xml
 

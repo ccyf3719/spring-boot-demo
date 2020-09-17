@@ -1,6 +1,6 @@
-package com.hand.eureka.controller;
+package com.hand.eureka.app.controller;
 
-import com.hand.eureka.dao.StuMapper;
+import com.hand.eureka.app.service.PayServerService;
 import com.hand.eureka.entity.CommonResult;
 import com.hand.eureka.entity.Stu;
 import lombok.extern.slf4j.Slf4j;
@@ -21,7 +21,7 @@ import javax.annotation.Resource;
 public class StuController {
 
     @Autowired
-    private StuMapper stuMapper;
+    private PayServerService payServerService;
 
     @Resource
     private DiscoveryClient discoveryClient;
@@ -29,12 +29,27 @@ public class StuController {
     @Value("${server.port}")
     private String serverPort;
 
+    @RequestMapping("/getAll")
+    public CommonResult<List<Stu>> getAll(){
+        return new CommonResult<>(200,"获取服务成功，端口号为：" + serverPort,payServerService.getAll());
+    }
+
     @RequestMapping("/getAll/{id}")
     public CommonResult<List<Stu>> getAll(@PathVariable("id") Integer id){
         Stu stu = new Stu();
         stu.setId(id);
-        List<Stu> list = stuMapper.findByAll(stu);
-        return new CommonResult<List<Stu>>(200,"获取服务成功，端口号为："+serverPort,list);
+        List<Stu> list = payServerService.getAll(stu);
+        return new CommonResult<>(200, "获取服务成功，端口号为：" + serverPort, list);
+    }
+
+    @GetMapping("hystrixOk")
+    public String hystrixOk(){
+        return payServerService.hystrixOk();
+    }
+
+    @GetMapping("hystrixError")
+    public String hystrixError(){
+        return payServerService.hystrixError();
     }
 
     @GetMapping("/discovery")
