@@ -42,12 +42,12 @@ public class StuController {
         return new CommonResult<>(200, "获取服务成功，端口号为：" + serverPort, list);
     }
 
-    @GetMapping("hystrixOk")
+    @GetMapping("/hystrixOk")
     public String hystrixOk(){
         return payServerService.hystrixOk();
     }
 
-    @GetMapping("hystrixError")
+    @GetMapping("/hystrixError")
     public String hystrixError(){
         return payServerService.hystrixError();
     }
